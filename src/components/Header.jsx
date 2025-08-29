@@ -57,10 +57,10 @@ const Header = ({setShowLogin}) => {
          
          {/* Mobile Menu */}
          <ul className={`flex flex-col gap-y-9 bg-white/15 rounded-xl backdrop-blur-lg p-13 md:hidden position absolute top-30 -left-full transform -translate-x-1/2 transition-all duration-500 ${ShowMenu ? 'left-1/2' : null}`}>
-          <li><Link to={'/'} className="text-blue-600 font-medium hover:text-blue-500">Home</a><hr className='text-gray-500'/></li>
-          <li><Link to={'/cars'} className="text-blue-600 font-medium hover:text-blue-500">Cars</a><hr className='text-gray-500'/></li>
-          <li><Link to={'/about'} className="text-blue-600 font-medium hover:text-blue-500">About</a><hr className='text-gray-500'/></li>
-          <li><Link to={'/contact'} className="text-blue-600 font-medium hover:text-blue-500">Contact</a><hr className='text-gray-500'/></li>
+          <li><Link to={'/'} className="text-blue-600 font-medium hover:text-blue-500">Home<hr className='text-gray-500'/></li>
+          <li><Link to={'/cars'} className="text-blue-600 font-medium hover:text-blue-500">Cars<hr className='text-gray-500'/></li>
+          <li><Link to={'/about'} className="text-blue-600 font-medium hover:text-blue-500">About<hr className='text-gray-500'/></li>
+          <li><Link to={'/contact'} className="text-blue-600 font-medium hover:text-blue-500">Contact<hr className='text-gray-500'/></li>
 
           {/* Mobile View Button */}
            <li>
